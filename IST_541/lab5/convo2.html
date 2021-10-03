@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question2</title>
+	<link href="css/comic_convo.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+
+		$(function(){
+			$("#option1").click( function(){
+         		$("#feedback").html("<h2 style='color:red'> I don't know what you're talking about. </h2>");
+                $("#lab5_convo3").css("display","none");
+			});
+
+			$("#option3").click( function(){
+                 $("#feedback").html("<h2 style='color:green'> Correct! If the only thing that changes is the speech balloons, it looks like they are animating.</h2>");
+                 $("#lab5_convo3").css("display","inline");
+			});
+			
+			  $("#option2, #option4").click( function(){
+             	$("#feedback").html("<h2 style='color:red'> What are you, nuts? </h2>");
+    			$("#lab5_convo3").css("display","none");
+			 });
+
+
+		});
+
+	</script>
+
+</head>
+
+<body>
+  
+	<div id="wrapper">
+		<p>&nbsp;</p>
+		<a href="index.html">Question 1</a>
+		<a href="convo2.html">Question 2</a>
+	<h1>What is one way to show dialog in digital comics?</h1>
+		
+		
+		<h3>Click on one of the following choices</h3>
+
+			<h2 id="option1" class="choices"> Animate a slide deck.&nbsp; </h2>
+			<h2 id="option2" class="choices"> Move the speech balloon and replace the text.&nbsp; </h2>
+			<h2 id="option3" class="choices"> Slap the second image over the top! </h2>
+			<h2 id="option4" class="choices"> Employ arcane magic! </h2>
+
+		<div id="feedback"></div>
+		<img id="lab5_convo3" src="img/lab5_convo3.jpeg" />
+	</div>
+
+</body>
+</html>
