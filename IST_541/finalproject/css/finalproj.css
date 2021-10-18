@@ -1,0 +1,86 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color:#A09D92;   /* background color */
+	color: #444;          /* text color for the entire page */
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:868px;
+	margin:0 auto; 
+	background-color: white;
+	padding: 5px;/* centers wrapper */
+}
+#wrapper2 {
+	width:1080px;
+	margin:0 auto; 
+	background-color: white;/* centers wrapper */
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	font-size:18px;
+	background-color:#8C8CB3
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	justify-content: center;
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: left;
+	
+}
+
+.warning {
+	background-color: #FBB8C4;
+	padding:10px;
+	border-radius:20px;
+}
+
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
+
+body {
+	text-align: center;
+	background-color: gray;  
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:  #52528E; 
+	color:  #05132D; 
+}
+
+a:hover {
+	font-size:150%;
+	background-color: #8C8CB3; 
+	color: black; 
+}
+
+
